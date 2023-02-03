@@ -1,0 +1,173 @@
+/* Typography */ 
+
+html {
+  font-family: 'Fira Sans', sans-serif; 
+}
+
+h1, h2, h3 {
+  font-weight: 600; 
+}
+
+p {
+  font-weight: 300; 
+  line-height: 18px; 
+}
+
+
+/* Layout */ 
+
+.wrapper {
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.flex {
+  display:flex;
+  gap: 32px;  
+}
+
+#features > div {
+  flex: 1; 
+}
+
+img {
+  max-height: 300px; 
+  width: auto; 
+}
+
+main section {
+  padding: 60px 20px 0 20px; 
+}
+
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  }
+  
+  th {
+  background-color: #423e3e;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+  }
+  
+  td {
+  padding: 10px;
+  }
+  
+  /* Zebra stripe pattern */
+  tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  /* Playlist table styles */
+  .playlist-table th {
+  text-align: left;
+  }
+  
+  .playlist-table td {
+  vertical-align: top;
+  }
+  
+  .playlist-table td:nth-child(2) {
+  width: 40%;
+  }
+  
+  .playlist-table td:nth-child(3) {
+  width: 15%;
+  text-align: center;
+  }
+
+
+  /* Navigation Buttons */
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2f2c2c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 10px;
+  }
+  
+  nav a:hover {
+  background-color: #fff;
+  color: #3e3e3e;
+  cursor: pointer;
+  }
+
+
+
+  /* Links */
+a {
+  color: #b959a7;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+  color: #e79ae5;
+  cursor: pointer;
+  }
+  
+  /* Buttons */
+  .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b81bb;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  text-align: center;
+  }
+  
+  .btn:hover {
+  background-color: #4b81bb;
+  cursor: pointer;
+  }
+  
+  /* Lists */
+  ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  font-size: 16px;
+  }
+  
+  ol {
+  list-style-type: decimal;
+  margin-left: 40px;
+  font-size: 16px;
+  }
+  
+  /* Table */
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  }
+  
+  th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  }
+  
+  tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  /* Zebra striped pattern for the playlist table */
+  #playlist td:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  #playlist td:nth-child(odd) {
+  background-color: #fff;
+  }
